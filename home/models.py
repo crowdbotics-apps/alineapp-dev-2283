@@ -36,3 +36,8 @@ class HomePage(models.Model):
 class ModelAline(models.Model):
     "Generated Model"
     name = models.CharField(max_length=50,)
+
+
+class FakeStuff(models.Model):
+    "Generated Model"
+    isValid = models.BooleanField()
