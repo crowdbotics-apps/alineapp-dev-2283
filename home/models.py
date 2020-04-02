@@ -36,6 +36,7 @@ class HomePage(models.Model):
 class ModelAline(models.Model):
     "Generated Model"
     name = models.CharField(max_length=50,)
+    something = models.CharField(max_length=50, null=True, blank=True,)
 
 
 class FakeStuff(models.Model):
